@@ -1,0 +1,104 @@
+/* general style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive, sans-serif;
+}
+
+
+
+hr {
+    margin: 0 auto;
+    width: 100px;
+    height: 5px;
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+}
+
+input {
+    color: gray;
+    outline: none;
+    border: none;
+    padding: 3px;
+    width: 150pt;
+}
+
+li { 
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+body {
+    background-color: rgb(185, 63, 63);
+}
+
+button {
+    border: none;
+    background-color: rgb(185, 63, 63);
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin: 20px auto 0 auto;
+}
+
+.content-container {
+    min-width: 200px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.check-btn {
+    margin-right: 1rem;
+}
+
+.delete-list-btn, #add-list-btn, .delete-todo-btn, #add-to-do-btn {
+    margin-left: 1rem;
+}
+
+#completed-todos{
+    font-size: 0.6rem;
+}
+
+.list-name {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-left: 50px;
+    }
+
+    .content-container {
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+}
+
