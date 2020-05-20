@@ -26,6 +26,7 @@ input {
     border: none;
     padding: 3px;
     width: 150pt;
+    font-size: 1rem;
 }
 
 li { 
@@ -46,11 +47,12 @@ button {
     box-shadow: none;
     cursor: pointer;
     outline: none;
+    font-size: 1.5rem;
 }
 
 #heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 #content {
@@ -59,6 +61,7 @@ button {
     width: 100%;
     height: 100%;
     margin: 20px auto 0 auto;
+    font-size: 1.5rem;
 }
 
 .content-container {
@@ -69,6 +72,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
+    font-size: 1.5rem;
 }
 
 .check-btn {
@@ -80,7 +84,7 @@ button {
 }
 
 #completed-todos{
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 
 .list-name {
