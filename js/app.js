@@ -188,12 +188,16 @@ function removeList(event) {
 
     if (obj.getAttribute('class') == "fas fa-trash-alt") {
         let btn = obj.parentNode;
+        console.log(btn);
         let li = btn.parentNode;
         let index = DATA.indexOf(LIST);
         DATA.splice(index, 1);
         localStorage.setItem('toDoList', JSON.stringify(DATA));
         li.remove();
         unfocusList();
+    }
+    else {
+        console.log(obj);
     }
 }
 
